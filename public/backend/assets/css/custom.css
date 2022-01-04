@@ -1,0 +1,25 @@
+
+body.loaded #loftloader-wrapper .loader-section.section-fade {
+	transition: all 0s 0s ease;
+}
+
+#loftloader-wrapper .loader-section {
+    position: fixed;
+    z-index: 999;
+    width: 50%;
+    height: 100%;
+    background: #fff !important; 
+    opacity: 1 !important;
+    transition: all 0s;
+    will-change: transform;
+}
+
+#loftloader-wrapper .loader-section {
+	background: #000000;
+}
+#loftloader-wrapper .loader-section {
+	opacity: 0.95;
+}
+#loftloader-wrapper.pl-sun #loader {
+	color: #248acc;
+}

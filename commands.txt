@@ -1,0 +1,6 @@
+____ BACKUP COMMAND ____
+
+CRON: sudo tar -cvpzf /var/www_backups/snapshot_`date "+\%Y-\%m-\%d-\%H-\%M"`.tar.gz -C /var/www/ serointech.com
+MANUAL: sudo tar -cvpzf /var/www_backups/snapshot_`date "+%Y-%m-%d-%H-%M"`.tar.gz -C /var/www/ serointech.com
+
+_________________________________________________________________________________________________________________________
